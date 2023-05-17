@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Yongqiang Zhao, and you can also call me Rancho. This is a website for academic sharing, including my publications, talks, portfolio, blog posts and so on.
+Welcome! I'm Yongqiang Zhao, but you can also call me Rancho. I'm currently pursuing a Master's degree at Southeast University. This website serves as a platform for academic sharing, where I showcase my publications, talks, portfolio, and blog posts. My primary research focuses on the exciting fields of robotic manipulation, tactile sensing, and reinforcement learning. Feel free to explore and delve into my work in these areas.
