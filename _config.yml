@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Institution and department"
+  name             : "INSTITUTION"
   avatar           : "profile.png"
-  bio              : "Southeast University (China) · Department of Robot Engineering"
+  bio              : "PostGraduate · Southeast University (China)"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
