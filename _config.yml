@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Research Interests"
+  name             : "Institution and department"
   avatar           : "profile.png"
-  bio              : "robotic manipulation \n tactile sensing \n reinforcement learning"
+  bio              : "Southeast University (China) · Department of Robot Engineering"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
