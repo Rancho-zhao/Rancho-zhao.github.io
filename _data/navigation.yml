@@ -5,13 +5,13 @@ main:
 
   - title: "PROJECTS"
     url: /projects/   
-    
-  - title: "AWARDS"
-    url: /cv/
         
   - title: "BLOGS"
     url: /year-archive/
-    
+
+  - title: "CV"
+    url: /cv/
+
   - title: "HOBBIES"
     url: /hobbies/
     
