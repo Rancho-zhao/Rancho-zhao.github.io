@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "PROJECTS"
-    url: /talks/    
+    url: /projects/    
     
   - title: "AWARDS"
     url: /portfolio/
@@ -13,5 +13,5 @@ main:
     url: /year-archive/
     
   - title: "HOBBIES"
-    url: /cv/
+    url: /hobbies/
     
