@@ -1,6 +1,6 @@
 ---
 title: "The Legend of Zelda: Tears of The Kingdom"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/totk_1.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/totk_1.png' style="zoom:75%">"
 collection: hobbies
 ---
 
