@@ -17,11 +17,15 @@ Simulation is a commonly-used tool in robotics to reduce hardware consumption an
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 1: The comparison of optical simulation among our method, TACTO, Phong, and Taxim with the real data.</center>
 
+&nbsp;
+
 <div align=center>
 <img src="/images/fots/marker_quality.jpg" width="75%" height="75%">
 </div>
 
-<center style="text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects under different normal, shear, and twist displacements.</center>
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects under different normal, shear, and twist displacements.</center>
+
+&nbsp;
 
 <div align=center>
 <img src="/images/fots/snapshot.jpg" width="50%" height="50%">
