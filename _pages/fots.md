@@ -13,7 +13,9 @@ Simulation is a commonly-used tool in robotics to reduce hardware consumption an
 
 <!-- ![fig1](/images/fots/optical_quality.jpg#pic_center){:height="75%" width="75%"} -->
 <!-- <p><img src="/images/fots/optical_quality.jpg" align="middle" height="75%" /></p> -->
-<img src="/images/fots/optical_quality.jpg" height="1000" width="900" alt="img1" align=center />
+<div align=center>
+<img src="/images/fots/optical_quality.jpg">
+</div>
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 1: The comparison of optical simulation among our method, TACTO, Phong, and Taxim with the real data.</center>
 
