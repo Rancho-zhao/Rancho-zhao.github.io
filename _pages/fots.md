@@ -23,6 +23,9 @@ Simulation is a commonly-used tool in robotics to reduce hardware consumption an
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects under different normal, shear, and twist displacements.</center>
 
-![fig3](/images/fots/snapshot.jpg#pic_center){:height="50%" width="50%"}
+<!-- ![fig3](/images/fots/snapshot.jpg#pic_center){:height="50%" width="50%"} -->
+<div align=center>
+<img src="/images/fots/snapshot.jpg" width="30%" height="30%">
+</div>
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 3: Tactile-guided robot manipulation in real-world scenarios. The first row is the tactile-images-guided Cable-Following task. The middle row and the last row are the tacile-flow-guided Peg-in-hole task and Door-Opening task, respectively.</center>
