@@ -11,6 +11,14 @@ author_profile: false
 
 Simulation is a commonly-used tool in robotics to reduce hardware consumption and gather large-scale data. Despite the efforts of several works to simulate optical tactile sen-sors, there remains challenges in synthesizing images effi-ciently and mimicking marker motion under different con-tact loads. In this work, we propose a fast optical tactile simulator, named FOTS, for simulating optical tactile sen-sors. We utilize a multi-layer perceptron mapping and pla-nar shadow generation to simulate the optical response, and marker distribution approximation to simulate the motion of surface markers caused by the surface stretch of the elas-tomer. Meanwhile, a Sim2Real transferable tactilemotor policy learning method is proposed, which integrates the proposed FOTS with physical engines such as MuJoCo. Experiment results reveal that FOTS outperforms other methods in terms of image generation quality and rendering speed, achieving 28.6 fps for optical simulation and 326.1 fps for marker motion simulation. In addition, the proposed method is applied to three tactile-guided robot manipula-tion tasks: cable-following, peg-in-hole, and door-opening. The experiments demonstrate the effectiveness of our method in zero-shot Sim2Real learning of tactile-guided robot manipulation skills.
 
-![fig1](/images/fots/optical_quality.jpg "fig1"){:height="50%" width="50%"}
+![fig1](/images/fots/optical_quality.jpg#pic_center "fig1"){:height="75%" width="75%"}
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 1: The comparison of optical simulation among our method, TACTO, Phong, and Taxim with the real data.</center>
+
+![fig2](/images/fots/marker_quality.jpg#pic_center "fig2"){:height="75%" width="75%"}
+
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects from [Daniel's](https://danfergo.github.io/gelsight-simulation/) under different normal, shear, and twist displacements.</center>
+
+![fig3](/images/fots/snapshot.jpg#pic_center "fig3"){:height="75%" width="75%"}
+
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 3: Tactile-guided robot manipulation in real-world scenarios. The first row is the tactile-images-guided Cable-Following task. The middle row and the last row are the tacile-flow-guided Peg-in-hole task and Door-Opening task, respectively.</center>
