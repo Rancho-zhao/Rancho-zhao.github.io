@@ -21,7 +21,7 @@ Simulation is a commonly-used tool in robotics to reduce hardware consumption an
 <img src="/images/fots/marker_quality.jpg" width="75%" height="75%">
 </div>
 
-<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects under different normal, shear, and twist displacements.</center>
+<center style="text-decoration:underline">Figure 2: Marker motion field simulation results. We visualize the marker motions (scaled up by 5 for better visualization) on the objects under different normal, shear, and twist displacements.</center>
 
 <div align=center>
 <img src="/images/fots/snapshot.jpg" width="50%" height="50%">
