@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: archive-taxonomy
 title: "FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills"
 permalink: /fots/
 author_profile: false
-nav_exclude: true
 ---
 
 ## [code](https://github.com/Rancho-zhao/FOTS)&nbsp;&nbsp;&nbsp;&nbsp;[paper](https://github.com/Rancho-zhao/FOTS)
