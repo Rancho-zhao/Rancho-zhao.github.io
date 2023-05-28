@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: compress
 title: "FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills"
 permalink: /fots/
 author_profile: false
