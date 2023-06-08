@@ -3,11 +3,11 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-toc: true
+# toc: true
 ---
 
 
-{% include toc %}
+<!-- {% include toc %} -->
 
 <img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/apf_rrt.png" alt="...">
 GelTip: A Finger-shaped Optical Tactile Sensor for Robotic Manipulation <br />
