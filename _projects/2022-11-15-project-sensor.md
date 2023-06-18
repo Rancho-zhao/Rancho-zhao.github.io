@@ -31,3 +31,6 @@ LED灯带 red, green, blue, white
 6mm亚克力板 1个
 3D打印外壳 1个
 纹身贴  1张
+
+## GelSight
+![fig1](/images/project-sensor/gelsight_solidworks.gif)
