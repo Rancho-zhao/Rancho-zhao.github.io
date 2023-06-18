@@ -25,7 +25,7 @@ ICRA 2023 ViTac Workshop: Blending Virtual and Real Visuo-Tactile Perception. <b
 Skill Generalization of Tubular Object Manipulation with Tactile Sensing and Sim2Real Learning <br />
 **Y. Zhao**, X. Jing, K. Qian, D. Gomes, S. Luo. <br />
 Robotics and Autonomous Systems, 2023 <br />
-[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S092188902200210X) [[code]](https://github.com/Rancho-zhao/Digit_PhongSim)
+[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S092188902200210X) [[code]](https://github.com/Rancho-zhao/Digit_PhongSim) [[video]](https://youtu.be/NJ9toHPzXXQ)
 
 <br />
 
