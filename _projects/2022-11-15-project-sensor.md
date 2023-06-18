@@ -33,4 +33,7 @@ LED灯带 red, green, blue, white
 纹身贴  1张
 
 ## GelSight
-![fig1](/images/project-sensor/gelsight_solidworks.gif)
+
+![fig1](https://github.com/Rancho-zhao/Rancho-zhao.github.io/blob/main/images/project-sensor/gelsight_soildworks.gif)
+
+<img src="{{ site.url }}/images/project-sensor/gelsight_soildworks.gif">
