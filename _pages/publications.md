@@ -11,10 +11,13 @@ author_profile: true
 
 ---
 
-<img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/paper_3.gif" alt="...">
+<img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/vitac2023.png" alt="...">
 Unsupervised Adversarial Domain Adaptation for Sim-to-Real Transfer of Tactile Manipulation Skills <br />
 X. Jing, **Y. Zhao**, J. Jiang, B. Duan, K. Qian, S. Luo. ICRA 2023 ViTac Workshop: Blending Virtual and Real Visuo-Tactile Perception. <br />
 [[paper]](https://shanluo.github.io/ViTacWorkshops/content/ViTac2023_Paper_05.pdf)
+
+<br />
+
 ---
 
 <img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/paper_3.gif" alt="...">
@@ -26,10 +29,11 @@ Skill Generalization of Tubular Object Manipulation with Tactile Sensing and Sim
 
 ---
 
-<img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/paper_3.gif" alt="...">
+<img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/TCDS.png" alt="...">
 Pixel-Level Domain Adaptation for Real-to-Sim Object Pose Estimation <br />
 K. Qian, Y. Duan, C. Luo, **Y. Zhao**, **X. Jing**. IEEE Transactions on Cognitive and Developmental Systems. <br />
 [[paper]](https://ieeexplore.ieee.org/abstract/document/10018456/)
+
 <br />
 
 ---
