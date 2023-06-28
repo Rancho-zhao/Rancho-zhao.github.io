@@ -77,8 +77,8 @@ Using watermark techniques (similar to water soaked tattoo stickers)
 
 The pattern of the marker is shown in the following figure:
 
-<img src="{{ site.url }}/images/project-sensor/marker.png" width="50%" height="50%" align=center>
+<img src="{{ site.url }}/images/project-sensor/marker.png" width="50%" height="50%">
 
 ### 2.3 Finished product display
 
-<img src="{{ site.url }}/images/project-sensor/digit_video.gif" align=center>
+<img align="center" src="{{ site.url }}/images/project-sensor/digit_video.gif">
