@@ -6,65 +6,79 @@ permalink: /projects/2022-11-15-project-sensor
 date: 2022-11-15
 ---
 
-我复现和改进了GelSight-like的触觉传感器，包括Gelsight和DIGIT。
+I reproduce and improve the design of GelSight-like tactile sensors, including GelSight and DIGIT.
 
-## 硬件材料准备
+## 0. Preparation of Hardware Materials
 
-- 通用设备
-稳压电源 1个
-喷枪	1把
-烤箱    1个
-电烙铁  1个
-
-- GelSight
-弹性体凝胶（elastomer gel）	1袋/1卷
-涂层凝胶（coating gel）	1瓶
-锡粉	1袋
-LED灯带 red, green, blue, white
-鱼眼摄像头	1个
-3D打印	外壳+内壳各1个
+|Type| Item|
+|:---:|:---:|
+|**General equipment**|Voltage-stabilized source; Air brush; Oven; Electric soldering iron|
+|**Materials for GelSight**|TPU; TPU coating glue; Metallic paint; Tin powder (high purity);<br> Acrylic board (3cmx3cm); LED lamp belt (red, green, blue, white);<br> Fisheye camera; Shell (3D printed)|
+|**Materials for DIGIT**|Fully transparent silicone; Silicone glue; Acrylic board (6mm); <br>Shell (3D printed); Marker paper (water printed)|
 
 
-- DIGIT
-全透明硅胶（A/B） 各1瓶
-硅胶胶水    1条
-6mm亚克力板 1个
-3D打印外壳 1个
-纹身贴  1张
-
-## GelSight
+## 1. GelSight
 
 <img src="{{ site.url }}/images/project-sensor/gelsight_soildworks.gif">
 
-### 鱼眼相机标定
+### 1.1 Fisheye camera calibration
 
-使用7*7棋盘格（单格边长6mm），采集了四十张各个角度的图片如下：
+Using a 7 * 7 chessboard grid (with a single edge length of 6mm), the original image and the distorted image are as follows:
 
-### 反射层制作
+<img src="{{ site.url }}/images/project-sensor/fisheye_2.jpg">
 
-对于凝胶，使用的是网上卖的7cm*7cm的防震垫，根据实际需求，需要将其裁剪成大概2.5cm*2.5cm
+<img src="{{ site.url }}/images/project-sensor/fisheye_3.jpg">
 
-硅胶还是采用网上购买的防震垫
+The calibration method refers to https://github.com/wrslab/gelsight
 
-对于反射层的制作，目前发现的比较不错的流程如下：
+### 1.2 Reflection membrane production
 
-1. 将硅胶一面用锡粉覆盖（因为硅胶本身有粘性，所以直接把硅胶放在锡粉里就行；还有就是锡粉一定要比较细，不要有颗粒感）
-2. 用金属漆喷涂（注意不要涂太多）
-3. 等喷漆大致晾干之后，用涂层胶水覆盖表面（可以保护反射层，提高反射层的耐用性）
-4. 继续晾干
+For gel elsotmer, the 7cm * 7cm shockproof pad (made of TPU) sold online is used. According to the actual demand, it needs to be cut to about 2.5cm * 2.5cm.
 
-**注意！全程保护硅胶的边缘侧面**
+For the production of reflection membrane, a relatively good process has been found as follows:
 
-## DIGIT
+1. Cover one side of the silicone with tin powder (because the silicone itself is sticky, simply put the silicone in the tin powder; also, the tin powder must be relatively fine and not have a grainy texture);
+2. Spray with metallic paint (be careful not to apply too much);
+3. After the paint is roughly dried, cover the surface with TPU coating glue (which can protect the reflection membrane and improve its durability);
+4. Continue drying.
 
-### 硅胶模制作
+**Attention! Protect the edges and sides of TPU throughout the entire process**
 
-1. 3D打印Digit硅胶模具，使用邵氏硬度为5度的食品级全透明液态硅胶，硅胶AB胶1:1混合，烤箱90°加热10min
-2. 稀释手感油（手感油：固化剂：稀释剂=100：3：400），均匀喷涂在硅胶表面，制造哑光效果，先常温静置5-10min，然后烤箱180-200°加热15-20min
-3. 稀释白色硅胶油墨（油墨：固化剂：稀释剂=100：3：500），使用喷枪均匀喷涂在手感油表面之上
-4. 定制了6mm和5mm的透明亚克力板作为硅胶支撑
-5. 使用硅胶胶水将亚克力板和硅胶进行粘合
+### 1.3 Finished product display
 
-### 锚点制作
+<img src="{{ site.url }}/images/project-sensor/gelsight_0.jpg">
 
-使用水印手艺（纹身贴制作）
+- Depth reconstruction
+
+<img src="{{ site.url }}/images/project-sensor/circle.jpg">
+
+<img src="{{ site.url }}/images/project-sensor/moon.jpg">
+
+- Equipped to robot arm
+
+<img src="{{ site.url }}/images/project-sensor/robot_arm.jpg">
+
+## 2. DIGIT
+
+### 2.1 Production of gel elastomer and reflection membrane
+
+1. 3D printed the gel mold of DIGIT, using food grade fully transparent liquid silicone with a shore hardness of 5 degrees, mixed with silicone A & B adhesive in a 1:1 ratio, heated in an oven at 90 ° C for 10 minutes;
+
+<img src="{{ site.url }}/images/project-sensor/3dprint.jpg">
+
+2. Dilute the hand feeling oil (hand feeling oil: curing agent: diluent=100:3:400) and evenly spray it on the surface of silicone to create a matte effect. First, let it stand at room temperature for 5-10 minutes, then heat it in an oven at 180-200 ° C for 15-20 minutes;
+3. Dilute white silicone ink (ink: curing agent: diluent=100:3:500) and spray evenly on the surface of the hand felt oil using a air brush;
+4. Use 6mm thick transparent acrylic board as the support of gel elastomer;
+5. Use silicone glue to bond the acrylic board with the gel.
+
+### 2.2 Production of markers
+
+Using watermark techniques (similar to water soaked tattoo stickers)
+
+The pattern of the marker is shown in the following figure:
+
+<img src="{{ site.url }}/images/project-sensor/marker.jpg">
+
+### 2.3 Finished product display
+
+<img src="{{ site.url }}/images/project-sensor/digit_video.gif">
