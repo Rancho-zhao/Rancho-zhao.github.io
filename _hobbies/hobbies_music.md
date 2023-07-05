@@ -1,7 +1,5 @@
 ---
 title: "Music"
-excerpt: "I love Chinese pop music. Jay Chou is my favorite singer."
+excerpt: "I love Chinese pop music. <b>Jay Chou</b> is my favorite singer. <br> <img src='/images/music.jpg'>"
 collection: hobbies
 ---
-
-<img src='/images/music.jpg'>
