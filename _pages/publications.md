@@ -11,6 +11,15 @@ author_profile: true
 
 ---
 
+<img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/fots.gif" alt="...">
+FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills <br />
+**Y. Zhao**, K. Qian, B. Duan, S. Luo. <br />
+Submitted to Robotics and Automation Letters.
+
+<br />
+
+---
+
 <img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/vitac2023.png" alt="...">
 Unsupervised Adversarial Domain Adaptation for Sim-to-Real Transfer of Tactile Manipulation Skills <br />
 X. Jing, **Y. Zhao**, J. Jiang, B. Duan, K. Qian, S. Luo. <br />
