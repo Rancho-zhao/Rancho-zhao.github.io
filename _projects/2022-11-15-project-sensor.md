@@ -14,7 +14,7 @@ I reproduce and improve the design of GelSight-like tactile sensors, including G
 |:---:|:---:|
 |**General equipment**|Voltage-stabilized source; Air brush; Oven; Electric soldering iron|
 |**Materials for GelSight**|TPU; TPU coating glue; Metallic paint; Tin powder (high purity);<br> Acrylic board (3cmx3cm); LED lamp belt (red, green, blue, white);<br> Fisheye camera; Shell (3D printed)|
-|**Materials for DIGIT**|Fully transparent silicone; Silicone glue; Acrylic board (6mm); <br>Shell (3D printed); Marker paper (water printed)|
+|**Materials for DIGIT**|Fully transparent silicone; White silicone ink; Silicone glue; <br>Acrylic board (6mm); Shell (3D printed); Marker paper (water printed)|
 
 
 ## 1. GelSight
