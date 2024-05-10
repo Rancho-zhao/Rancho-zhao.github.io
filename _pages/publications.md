@@ -14,7 +14,8 @@ author_profile: true
 <img align="left" width="200" style="margin-right: 10px" src="{{ site.url }}/images/fots.gif" alt="...">
 FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills <br />
 **Y. Zhao**, K. Qian, B. Duan, S. Luo. <br />
-Submitted to Robotics and Automation Letters.
+Robotics and Automation Letters, 2024 <br />
+[[paper]](https://arxiv.org/abs/2404.19217) [[code]](https://github.com/Rancho-zhao/FOTS) [[video]](https://youtu.be/QUHolBrg4LI)
 
 <br />
 
