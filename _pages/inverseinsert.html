@@ -1,6 +1,6 @@
 ---
 layout: research_default
-title: "InverseInsert: A Novel Approach to XYZ"
+title: "InverseInsert"
 permalink: /inverseinsert.html
 author_profile: false
 ---
@@ -32,20 +32,23 @@ author_profile: false
 <body>
 
     <!-- Paper Title -->
-    <h1>InverseInsert: A Novel Approach to XYZ</h1>
+    <h1>Zero-shot Sim-to-Real Peg-in-Hole Assembly via Inverse Learning</h1>
 
     <!-- Abstract Section -->
     <h2>Abstract</h2>
     <p>
-        This paper presents <strong>InverseInsert</strong>, a new method for solving XYZ problems.
-        Our approach improves upon existing techniques by leveraging ABC principles, leading to
-        better performance and efficiency. Experimental results demonstrate significant improvements
-        in accuracy and computational efficiency over baseline methods.
+        Peg-in-hole assembly is both important and challenging to learn. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to generalise unseen skills, we propose an inverse learning framework to achieve zero-shot Sim2Real peg-in-hole assembly via a learned peg-out-hole policy. The framework consists of three main stages: (1) oracle peg-out-hole policy learning using reinforcement learning with privileged information in simulation, (2) end-to-end visual-motor peg-in-hole policy training via behavior cloning based on inverse trajectories collected during the trained peg-out-hole policy replay, and (3) tactile-motor peg-in-hole policy fine-tuning through discrete tactile contact configurations in the real world. Compared to learning peg-in-hole directly using reinforcement learning, our approach achieves twice the learning speed and Sim2Sim success rate. Furthermore, zero-shot Sim2Real experiments conducted on different robots and various in-class peg/hole objects demonstrate the effectiveness and generalisability of the proposed framework, achieving a success rate of over 86.7\% for each item.
     </p>
 
     <!-- Experiment Video Section -->
-    <h2>Experiment Video</h2>
-    <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/hobbies-film/Cocoon.m4v"
+    <h2>Single-arm Experiment Video</h2>
+    <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Single-arm.m4v"
+        controls="controls">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Dual-arm Experiment Video</h2>
+    <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Dual-arm.m4v"
         controls="controls">
         Your browser does not support the video tag.
     </video>
