@@ -13,7 +13,7 @@ author_profile: false
     <title>InverseInsert Research</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif;
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
@@ -37,7 +37,7 @@ author_profile: false
     <!-- Abstract Section -->
     <h2>Abstract</h2>
     <p>
-        Peg-in-hole assembly is both important and challenging to learn. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to generalise unseen skills, we propose an inverse learning framework to achieve zero-shot Sim2Real peg-in-hole assembly via a learned peg-out-hole policy. The framework consists of three main stages: (1) oracle peg-out-hole policy learning using reinforcement learning with privileged information in simulation, (2) end-to-end visual-motor peg-in-hole policy training via behavior cloning based on inverse trajectories collected during the trained peg-out-hole policy replay, and (3) tactile-motor peg-in-hole policy fine-tuning through discrete tactile contact configurations in the real world. Compared to learning peg-in-hole directly using reinforcement learning, our approach achieves twice the learning speed and Sim2Sim success rate. Furthermore, zero-shot Sim2Real experiments conducted on different robots and various in-class peg/hole objects demonstrate the effectiveness and generalisability of the proposed framework, achieving a success rate of over 86.7\% for each item.
+        Peg-in-hole assembly is both important and challenging to learn. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to generalise unseen skills, we propose an inverse learning framework to achieve Sim-to-Real peg-in-hole assembly via a learned peg-out-hole policy. The framework consists of three main stages: (1) oracle peg-out-hole policy learning using reinforcement learning with privileged information in simulation, (2) end-to-end visual-motor peg-in-hole policy training via behavior cloning based on inverse trajectories collected during the trained peg-out-hole policy replay, and (3) tactile-motor peg-in-hole policy fine-tuning through discrete tactile contact configurations in the real world. Compared to learning peg-in-hole directly using reinforcement learning, our approach achieves twice the learning speed and Sim2Sim success rate. Furthermore, Sim-to-Real experiments conducted on different robots and various in-class peg/hole objects demonstrate the effectiveness and generalisability of the proposed framework, achieving a success rate of over 86.7% for each item.
     </p>
 
     <!-- Experiment Video Section -->
@@ -48,6 +48,10 @@ author_profile: false
     <h2>Dual-arm Experiment Video</h2>
     <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Dual-arm.mp4"  controls="controls" style="max-width: 700px;">
     </video>
+
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>
