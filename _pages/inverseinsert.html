@@ -32,13 +32,12 @@ author_profile: false
 <body>
 
     <!-- Paper Title -->
-    <h1>Sim-to-Real Peg-in-Hole Assembly via Inverse Learning</h1>
+    <h1> Sim-to-Real Peg-in-Hole Assembly Learned from Peg-out-Hole Disassembly</h1>
 
     <!-- Abstract Section -->
     <h2>Abstract</h2>
     <p>
-        Peg-in-hole assembly is both important and challenging to learn. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to generalise unseen skills, we propose an inverse learning framework to achieve Sim-to-Real peg-in-hole assembly via a learned peg-out-hole policy. The framework consists of three main stages: (1) oracle peg-out-hole policy learning using reinforcement learning with privileged information in simulation, (2) end-to-end visual-motor peg-in-hole policy training via behavior cloning based on inverse trajectories collected during the trained peg-out-hole policy replay, and (3) tactile-motor peg-in-hole policy fine-tuning through discrete tactile contact configurations in the real world. Compared to learning peg-in-hole directly using reinforcement learning, our approach achieves twice the learning speed and Sim2Sim success rate. Furthermore, Sim-to-Real experiments conducted on different robots and various in-class peg/hole objects demonstrate the effectiveness and generalisability of the proposed framework, achieving a success rate of over 86.7% for each item.
-    </p>
+        Peg-in-hole assembly is a fundamental and challenging robotic manipulation task. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to transfer skills to unseen but related ones, we propose a novel skill learning framework that can achieve Sim-to-Real peg-in-hole (PiH) assembly via a learned peg-out-hole (PoH) policy. The framework consists of two main modules: (1) a PoH-to-PiH policy learning method that learns the oracle peg-out-hole policy using reinforcement learning with privileged information, followed by training a visual-motor peg-in-hole policy through behaviour cloning from reversed trajectories collected during the replay of the trained peg-out-hole policy; and (2) a real-world fine-tuning method that leverages discrete tactile contact configurations. Compared to direct reinforcement learning approaches, our method achieves twice the learning speed and Sim-to-Sim success rate. Extensive Sim-to-Real experiments across single-arm and dual-arm robot configurations and varied peg/hole geometries validate our framework's effectiveness, achieving consistent success rates above 83.3% across all test objects.    </p>
 
     <!-- Experiment Video Section -->
     <h2>Single-arm Experiment Video</h2>
