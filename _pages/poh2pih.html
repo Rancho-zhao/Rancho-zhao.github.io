@@ -38,8 +38,8 @@ author_profile: false
         }
         h1, h2 {
             color: #222;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
+            /* border-bottom: 2px solid #ddd;
+            padding-bottom: 5px; */
         }
         video {
             max-width: 100%;
@@ -69,52 +69,51 @@ author_profile: false
     </style>
 </head>
 <body>
-    <div class="content">
-        <div class="logo-container">
-            <img src="https://rancho-zhao.github.io/images/Kings_logo.png" alt="Logo 1" class="logo">
-            <img src="https://rancho-zhao.github.io/images/RPL_logo.png" alt="Logo 2" class="logo">
-        </div>
-        <!-- Paper Title -->
-        <h1> Sim-to-Real Peg-in-Hole Assembly Learning from Peg-out-Hole Disassembly</h1>
 
-        <!-- Abstract Section -->
-        <h2>Abstract</h2>
-        <p>
-            Peg-in-hole (PiH) assembly is fundamental yet
-    challenging robotic manipulation task. While reinforcement
-    learning (RL) has shown promise in tackling such tasks, it
-    requires extensive exploration and carefully-designed reward
-    functions. In this paper, we propose a novel PiH skill-learning
-    framework that leverages its inverse task, i.e., peg-out-hole
-    (PoH) disassembly, to facilitate PiH learning. Compared to PiH,
-    PoH is inherently easier as it requires only overcoming existing
-    friction without precise alignment, making data collection
-    more efficient. To this end, we first collect a large dataset
-    of PoH trajectories in simulation, which are then inverted to
-    generate training data for PiH. To bridge the Sim-to-Real gap,
-    the learned policy is fine-tuned with tactile measurements to
-    compensate for peg-hole misalignment in real-world scenarios.
-    Compared to direct RL approaches that train PiH policies
-    from scratch, our method achieves a twofold improvement in
-    both learning speed and Sim-to-Sim success rates. Extensive
-    Sim-to-Real experiments across single-arm and dual-arm robot
-    configurations, as well as diverse peg and hole geometries,
-    validate the effectiveness of our framework, achieving an
-    average success rate of 91.3% across all tested objects. </p>
-
-        <!-- Experiment Video Section -->
-        <h2>Single-arm Experiment Videos</h2>
-        <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Single-arm.mp4" controls="controls" style="max-width: 700px;">
-        </video>
-
-        <h2>Dual-arm Experiment Videos</h2>
-        <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Dual-arm.mp4"  controls="controls" style="max-width: 700px;">
-        </video>
-
-        <br>
-        <br>
-        <br>
+    <div class="logo-container">
+        <img src="https://rancho-zhao.github.io/images/Kings_logo.png" alt="Logo 1" class="logo">
+        <img src="https://rancho-zhao.github.io/images/RPL_logo.png" alt="Logo 2" class="logo">
     </div>
+    <!-- Paper Title -->
+    <h1> Sim-to-Real Peg-in-Hole Assembly Learning from Peg-out-Hole Disassembly</h1>
+
+    <!-- Abstract Section -->
+    <h2>Abstract</h2>
+    <p>
+        Peg-in-hole (PiH) assembly is fundamental yet
+challenging robotic manipulation task. While reinforcement
+learning (RL) has shown promise in tackling such tasks, it
+requires extensive exploration and carefully-designed reward
+functions. In this paper, we propose a novel PiH skill-learning
+framework that leverages its inverse task, i.e., peg-out-hole
+(PoH) disassembly, to facilitate PiH learning. Compared to PiH,
+PoH is inherently easier as it requires only overcoming existing
+friction without precise alignment, making data collection
+more efficient. To this end, we first collect a large dataset
+of PoH trajectories in simulation, which are then inverted to
+generate training data for PiH. To bridge the Sim-to-Real gap,
+the learned policy is fine-tuned with tactile measurements to
+compensate for peg-hole misalignment in real-world scenarios.
+Compared to direct RL approaches that train PiH policies
+from scratch, our method achieves a twofold improvement in
+both learning speed and Sim-to-Sim success rates. Extensive
+Sim-to-Real experiments across single-arm and dual-arm robot
+configurations, as well as diverse peg and hole geometries,
+validate the effectiveness of our framework, achieving an
+average success rate of 91.3% across all tested objects. </p>
+
+    <!-- Experiment Video Section -->
+    <h2>Single-arm Experiment Videos</h2>
+    <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Single-arm.mp4" controls="controls" style="max-width: 700px;">
+    </video>
+
+    <h2>Dual-arm Experiment Videos</h2>
+    <video src="https://raw.githubusercontent.com/rancho-zhao/rancho-zhao.github.io/main/images/inverseinsert/Dual-arm.mp4"  controls="controls" style="max-width: 700px;">
+    </video>
+
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>
