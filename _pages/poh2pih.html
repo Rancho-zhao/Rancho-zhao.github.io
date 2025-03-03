@@ -27,22 +27,51 @@ author_profile: false
             display: block;
             margin: 20px 0;
         }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
         .logo {
             max-width: 150px;
-            display: block;
-            margin: 0 auto 20px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <img src="https://rancho-zhao.github.io/images/mstile-144x144.png" alt="Logo" class="logo">
+    <div class="logo-container">
+        <img src="https://rancho-zhao.github.io/images/Kings_logo.png" alt="Logo 1" class="logo">
+        <img src="https://rancho-zhao.github.io/images/RPL_logo.png" alt="Logo 2" class="logo">
+    </div>
     <!-- Paper Title -->
-    <h1> Sim-to-Real Peg-in-Hole Assembly Learned from Peg-out-Hole Disassembly</h1>
+    <h1> Sim-to-Real Peg-in-Hole Assembly Learning from Peg-out-Hole Disassembly</h1>
 
     <!-- Abstract Section -->
     <h2>Abstract</h2>
     <p>
-        Peg-in-hole assembly is a fundamental and challenging robotic manipulation task. While reinforcement learning can address this problem to some extent, it has inherent limitations, such as the need for extensive exploration and well-designed reward functions. Inspired by humans' ability to transfer skills to unseen but related ones, we propose a novel skill learning framework that can achieve Sim-to-Real peg-in-hole (PiH) assembly via a learned peg-out-hole (PoH) policy. The framework consists of two main modules: (1) a PoH-to-PiH policy learning method that learns the oracle peg-out-hole policy using reinforcement learning with privileged information, followed by training a visual-motor peg-in-hole policy through behavior cloning from reversed trajectories collected during the replay of the trained peg-out-hole policy; and (2) a real-world fine-tuning method that leverages discrete tactile contact configurations. Compared to direct reinforcement learning approaches, our method achieves twofold improvement in both learning speed and Sim-to-Sim success rate. Extensive Sim-to-Real experiments across single-arm and dual-arm robot configurations and varied peg/hole geometries validate our framework's effectiveness, achieving 91.3% average success rates across all test objects.    </p>
+        Peg-in-hole (PiH) assembly is fundamental yet
+ challenging robotic manipulation task. While reinforcement
+ learning (RL) has shown promise in tackling such tasks, it
+ requires extensive exploration and carefully-designed reward
+ functions. In this paper, we propose a novel PiH skill-learning
+ framework that leverages its inverse task, i.e., peg-out-hole
+ (PoH) disassembly, to facilitate PiH learning. Compared to PiH,
+ PoH is inherently easier as it requires only overcoming existing
+ friction without precise alignment, making data collection
+ more efficient. To this end, we first collect a large dataset
+ of PoH trajectories in simulation, which are then inverted to
+ generate training data for PiH. To bridge the Sim-to-Real gap,
+ the learned policy is fine-tuned with tactile measurements to
+ compensate for peg-hole misalignment in real-world scenarios.
+ Compared to direct RL approaches that train PiH policies
+ from scratch, our method achieves a twofold improvement in
+ both learning speed and Sim-to-Sim success rates. Extensive
+ Sim-to-Real experiments across single-arm and dual-arm robot
+ configurations, as well as diverse peg and hole geometries,
+ validate the effectiveness of our framework, achieving an
+ average success rate of 91.3% across all tested objects. </p>
 
     <!-- Experiment Video Section -->
     <h2>Single-arm Experiment Videos</h2>
