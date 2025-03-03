@@ -66,6 +66,28 @@ author_profile: false
             max-width: 150px;
             height: auto;
         }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            text-decoration: none;
+            color: #555;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .button:hover, .button.active {
+            background: #1f5fa8;
+            color: white;
+            border-color: #1f5fa8;
+        }
     </style>
 </head>
 <body>
@@ -73,6 +95,10 @@ author_profile: false
     <div class="logo-container">
         <img src="https://rancho-zhao.github.io/images/Kings_logo.png" alt="Logo 1" class="logo">
         <img src="https://rancho-zhao.github.io/images/RPL_logo.png" alt="Logo 2" class="logo">
+    </div>
+    <div class="button-container">
+        <a href="#code" class="button">Code</a>
+        <a href="#data" class="button">Data</a>
     </div>
     <!-- Paper Title -->
     <h1> Sim-to-Real Peg-in-Hole Assembly Learning from Peg-out-Hole Disassembly</h1>
