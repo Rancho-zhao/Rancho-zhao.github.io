@@ -4,6 +4,7 @@ window.HELP_IMPROVE_VIDEOJS = false;
 function toggleMoreWorks() {
     const dropdown = document.getElementById('moreWorksDropdown');
     const button = document.querySelector('.more-works-btn');
+    if (!dropdown || !button) return;
     
     if (dropdown.classList.contains('show')) {
         dropdown.classList.remove('show');
@@ -20,7 +21,7 @@ document.addEventListener('click', function(event) {
     const dropdown = document.getElementById('moreWorksDropdown');
     const button = document.querySelector('.more-works-btn');
     
-    if (container && !container.contains(event.target)) {
+    if (container && dropdown && button && !container.contains(event.target)) {
         dropdown.classList.remove('show');
         button.classList.remove('active');
     }
@@ -31,6 +32,7 @@ document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         const dropdown = document.getElementById('moreWorksDropdown');
         const button = document.querySelector('.more-works-btn');
+        if (!dropdown || !button) return;
         dropdown.classList.remove('show');
         button.classList.remove('active');
     }
@@ -46,7 +48,7 @@ function copyBibTeX() {
         navigator.clipboard.writeText(bibtexElement.textContent).then(function() {
             // Success feedback
             button.classList.add('copied');
-            copyText.textContent = 'Cop';
+            copyText.textContent = 'Copied!';
             
             setTimeout(function() {
                 button.classList.remove('copied');
@@ -63,7 +65,7 @@ function copyBibTeX() {
             document.body.removeChild(textArea);
             
             button.classList.add('copied');
-            copyText.textContent = 'Cop';
+            copyText.textContent = 'Copied!';
             setTimeout(function() {
                 button.classList.remove('copied');
                 copyText.textContent = 'Copy';
@@ -83,6 +85,7 @@ function scrollToTop() {
 // Show/hide scroll to top button
 window.addEventListener('scroll', function() {
     const scrollButton = document.querySelector('.scroll-to-top');
+    if (!scrollButton) return;
     if (window.pageYOffset > 300) {
         scrollButton.classList.add('visible');
     } else {
