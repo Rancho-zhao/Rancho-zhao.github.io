@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yongqiang Zhao's Homepage</title>
+  <link rel="icon" type="image/png" href="images/profile.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      background: #fff;
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    a:link,
+    a:visited {
+      color: #0071bc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #208799;
+      text-decoration: none;
+    }
+
+    ::selection {
+      background: rgba(220, 220, 220, 0.9);
+    }
+
+    .page-shell {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0 56px;
+    }
+
+    .section-gap {
+      height: 30px;
+    }
+
+    .content-gap {
+      height: 22px;
+    }
+
+    .hero {
+      padding-top: 8px;
+    }
+
+    .hero img {
+      display: block;
+      width: 100%;
+      max-width: 190px;
+      margin: 0 auto;
+      border-radius: 18px;
+    }
+
+    .hero-title {
+      margin: 0 0 10px;
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: #111;
+    }
+
+    .hero-links {
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+
+    .hero-links span {
+      color: #98a2ad;
+      margin: 0 6px;
+    }
+
+    h3 {
+      margin: 0 0 12px;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: #111;
+    }
+
+    .news-list,
+    .plain-list {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    .news-list li,
+    .plain-list li {
+      margin-bottom: 8px;
+    }
+
+    .paper-item {
+      align-items: center;
+    }
+
+    .paper-media img {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      aspect-ratio: 4 / 3;
+    }
+
+    .paper-title {
+      font-size: 1.16rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #111;
+      margin-bottom: 4px;
+    }
+
+    .paper-authors {
+      font-size: 0.98rem;
+      color: #444;
+      margin-bottom: 4px;
+    }
+
+    .paper-venue {
+      font-size: 0.98rem;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .paper-note {
+      font-size: 0.92rem;
+      color: #5f6b76;
+      margin-top: 6px;
+    }
+
+    .link-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .badge-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 7px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: #111827;
+      background: #fff;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      line-height: 1.2;
+    }
+
+    .badge-link:hover {
+      color: #111827;
+      background: #f3f4f6;
+    }
+
+    .footer-note {
+      margin-top: 10px;
+      font-size: 0.92rem;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (max-width: 767.98px) {
+      .page-shell {
+        width: min(100% - 24px, 1040px);
+        padding-top: 22px;
+      }
+
+      .hero img {
+        max-width: 150px;
+        margin: 0 0 12px;
+      }
+
+      .hero-title {
+        font-size: 1.85rem;
+      }
+
+      .paper-title {
+        font-size: 1.08rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <div class="hero">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img src="images/profile.png" alt="Portrait of Yongqiang Zhao">
+        </div>
+        <div class="col-md-9">
+          <h2 class="hero-title">Yongqiang Zhao</h2>
+          <div class="hero-links">
+            <a href="files/CV_Yongqiang_Zhao.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+            <span>&amp;</span>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=Be7dj_oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <span>&amp;</span>
+            <a href="https://github.com/Rancho-zhao" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span>&amp;</span>
+            <a href="https://www.researchgate.net/profile/Yongqiang-Zhao-10" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            <span>&amp;</span>
+            <a href="mailto:yongqiang.zhao@kcl.ac.uk">Email</a>
+          </div>
+          <div>
+            I am a PhD student in the Department of Engineering at
+            <a href="https://www.kcl.ac.uk/" target="_blank" rel="noopener noreferrer">King's College London</a>.
+            My research lies at the intersection of robotic manipulation, tactile sensing, and robot learning,
+            with a particular interest in sim-to-real transfer and perception-driven dexterous interaction.
+          </div>
+          <div class="content-gap"></div>
+          <div>
+            Before joining King's, I received both my Bachelor's and Master's degrees from
+            <a href="https://www.seu.edu.cn/" target="_blank" rel="noopener noreferrer">Southeast University</a>.
+            This page highlights selected papers and projects from my research journey.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-gap"></div>
+
+    <div>
+      <h3>Recent News</h3>
+      <ul class="news-list">
+        <li>[2024/04] Our paper on FOTS was published in <b>IEEE Robotics and Automation Letters</b>.</li>
+        <li>[2023/02] Work on tubular object manipulation with tactile sensing appeared in <b>Robotics and Autonomous Systems</b>.</li>
+        <li>[2023/01] Our paper on pixel-level domain adaptation for real-to-sim pose estimation was published in <b>IEEE TCDS</b>.</li>
+        <li>[Now] I am continuing research on tactile perception, sim-to-real transfer, and dexterous manipulation.</li>
+      </ul>
+    </div>
+
+    <div class="section-gap"></div>
+
+    <div>
+      <h3>Papers</h3>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/gelsight_0.jpg" alt="ViTacGen preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">ViTacGen: Robotic Pushing with Vision-to-Touch Generation</div>
+          <div class="paper-authors">Z. Wu, Y. Lin, <b>Yongqiang Zhao</b>, X. Zhang, Z. Chen, N. Lepora, S. Luo</div>
+          <div class="paper-venue">IEEE Robotics and Automation Letters, accepted/in press, 2025</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/vitacgen-robotic-pushing-with-vision-to-touch-generation/" target="_blank" rel="noopener noreferrer">Entry</a>
+            <a class="badge-link" href="https://researchtrend.ai/papers/2510.14117" target="_blank" rel="noopener noreferrer">Summary</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/fisheye_0.jpg" alt="SimTac preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">SimTac: A Physics-Based Simulator for Vision-Based Tactile Sensing with Biomorphic Structures</div>
+          <div class="paper-authors">X. Zhang, J. Jiang, Z. Chen, <b>Yongqiang Zhao</b>, T. Yang, D. Gomes, J. Wang, S. Luo</div>
+          <div class="paper-venue">Recent publication record, 2025</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/simtac-a-physics-based-simulator-for-vision-based-tactile-sensing/" target="_blank" rel="noopener noreferrer">Entry</a>
+            <a class="badge-link" href="https://papers.cool/arxiv/2511.11456" target="_blank" rel="noopener noreferrer">ArXiv Mirror</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/robot_arm.jpg" alt="GenForce preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Training Tactile Sensors to Learn Force Sensing from Each Other</div>
+          <div class="paper-authors">Z. Chen, N. Ou, X. Zhang, Z. Wu, <b>Yongqiang Zhao</b>, Y. Wang, E. Papastavridis, N. Lepora, L. Jamone, J. Deng, S. Luo</div>
+          <div class="paper-venue">Recent publication record, 2026</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/training-tactile-sensors-to-learn-force-sensing-from-each-other/" target="_blank" rel="noopener noreferrer">Entry</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/fots.gif" alt="FOTS preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills</div>
+          <div class="paper-authors"><b>Y. Zhao</b>, K. Qian, B. Duan, S. Luo</div>
+          <div class="paper-venue">IEEE Robotics and Automation Letters, 2024</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://arxiv.org/abs/2404.19217" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://github.com/Rancho-zhao/FOTS" target="_blank" rel="noopener noreferrer">Code</a>
+            <a class="badge-link" href="https://youtu.be/QUHolBrg4LI" target="_blank" rel="noopener noreferrer">Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/paper_3.gif" alt="Tubular manipulation preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Skill Generalization of Tubular Object Manipulation with Tactile Sensing and Sim2Real Learning</div>
+          <div class="paper-authors"><b>Y. Zhao</b>, X. Jing, K. Qian, D. Gomes, S. Luo</div>
+          <div class="paper-venue">Robotics and Autonomous Systems, 2023</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://www.sciencedirect.com/science/article/abs/pii/S092188902200210X" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://github.com/Rancho-zhao/Digit_PhongSim" target="_blank" rel="noopener noreferrer">Code</a>
+            <a class="badge-link" href="https://youtu.be/NJ9toHPzXXQ" target="_blank" rel="noopener noreferrer">Video</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/TCDS.png" alt="Pose estimation preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Pixel-Level Domain Adaptation for Real-to-Sim Object Pose Estimation</div>
+          <div class="paper-authors">K. Qian, Y. Duan, C. Luo, <b>Y. Zhao</b>, X. Jing</div>
+          <div class="paper-venue">IEEE Transactions on Cognitive and Developmental Systems, 2023</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://ieeexplore.ieee.org/abstract/document/10018456/" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/vitac2023.png" alt="ViTac workshop preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Unsupervised Adversarial Domain Adaptation for Sim-to-Real Transfer of Tactile Manipulation Skills</div>
+          <div class="paper-authors">X. Jing, <b>Y. Zhao</b>, J. Jiang, B. Duan, K. Qian, S. Luo</div>
+          <div class="paper-venue">ICRA 2023 ViTac Workshop</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://shanluo.github.io/ViTacWorkshops/content/ViTac2023_Paper_05.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/apf_rrt.png" alt="APF-RRT preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Path Planning of UAV Delivery Based on Improved APF-RRT* Algorithm</div>
+          <div class="paper-authors"><b>Y. Zhao</b>, K. Liu, G. Lu, Y. Hu, S. Yuan</div>
+          <div class="paper-venue">International Conference on Computer Modeling, Simulation and Algorithm, 2020</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://iopscience.iop.org/article/10.1088/1742-6596/1624/4/042004/pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://github.com/Rancho-zhao/APF-RRTstar" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper-note">
+        Paper list updated using public records associated with your Google Scholar profile, primarily King's College London Pure entries when Scholar itself could not be fetched directly.
+      </div>
+    </div>
+
+    <div class="section-gap"></div>
+
+    <div>
+      <h3>Selected Projects</h3>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/robot_arm.jpg" alt="Tactile sensor project">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Reproduction and Improvement of Vision-based Tactile Sensors</div>
+          <div class="paper-venue">Sensor structure design, fabrication, optical modeling, and robotic deployment.</div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-xiaoli/overall.jpg" alt="Xiaoli project">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Xiaoli: A Robotic Arm for Table Tennis Grasping</div>
+          <div class="paper-venue">Embedded control, mechanical integration, and autonomous grasping experiments.</div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-audio/voice.jpg" alt="Audio amplifier project">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">A Design of Audio Amplifier</div>
+          <div class="paper-venue">Circuit design, analog signal processing, and hardware prototyping.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-gap"></div>
+
+    <div class="footer-note">
+      &copy; 2026 Yongqiang Zhao
+    </div>
+  </div>
+</body>
+</html>
