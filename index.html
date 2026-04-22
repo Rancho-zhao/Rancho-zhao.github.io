@@ -96,12 +96,14 @@
       align-items: center;
     }
 
-    .paper-media img {
+    .paper-media img,
+    .paper-media video {
       display: block;
       width: 100%;
       border-radius: 10px;
       object-fit: cover;
       aspect-ratio: 4 / 3;
+      background: #000;
     }
 
     .paper-title {
@@ -226,10 +228,11 @@
     <div>
       <h3>Recent News</h3>
       <ul class="news-list">
-        <li>[2026] <b>Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly</b> was accepted by <b>IEEE Robotics and Automation Letters</b>.</li>
+        <li>[2026] <b>Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly</b> was published in <b>IEEE Robotics and Automation Letters</b>.</li>
         <li>[2026] <b>ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing</b> was accepted by <b>ICRA 2026</b>.</li>
         <li>[2024] <b>FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-guided Robot Manipulation Skills</b> was published in <b>IEEE Robotics and Automation Letters</b>.</li>
         <li>[2023] <b>Skill Generalization of Tubular Object Manipulation with Tactile Sensing and Sim2Real Learning</b> was published in <b>Robotics and Autonomous Systems</b>.</li>
+        <li>[2025] I was a leading developer and organizer of the Third London Summer School in Robotics and AI, including the visual-tactile grasping mini-hackathon using LeRobot SO-ARM101.</li>
       </ul>
     </div>
 
@@ -238,13 +241,16 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/digit_video.gif" alt="Peg-in-hole assembly preview">
+          <video autoplay muted loop playsinline preload="metadata" poster="https://drive.google.com/thumbnail?id=1g0xArS-abbtrRMwt4Ktf1PP81NfTQNYZ&sz=w715-h470-p-k-nu" aria-label="Peg-in-hole assembly preview">
+            <source src="https://drive.google.com/uc?id=1g0xArS-abbtrRMwt4Ktf1PP81NfTQNYZ&export=download" type="video/mp4">
+          </video>
         </div>
         <div class="col-md-9">
           <div class="paper-title">Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly</div>
           <div class="paper-authors"><b>Yongqiang Zhao</b>, Xuyang Zhang, Zhuo Chen, Matteo Leonetti, Emmanouil Spyrakos Papastavridis, Shan Luo</div>
-          <div class="paper-venue">IEEE Robotics and Automation Letters, accepted, 2026</div>
+          <div class="paper-venue">IEEE Robotics and Automation Letters, 2026</div>
           <div class="link-badges">
+            <a class="badge-link" href="https://ieeexplore.ieee.org/abstract/document/11458772" target="_blank" rel="noopener noreferrer">Paper</a>
             <a class="badge-link" href="https://sites.google.com/view/pooh2pih" target="_blank" rel="noopener noreferrer">Project Website</a>
           </div>
         </div>
@@ -254,7 +260,9 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/fisheye_2.jpg" alt="ViTac-Tracing preview">
+          <video autoplay muted loop playsinline preload="metadata" poster="https://drive.google.com/thumbnail?id=11eXz5IguJDngMpMl5QWHO5uhGW5G5gid&sz=w715-h470-p-k-nu" aria-label="ViTac-Tracing preview">
+            <source src="https://drive.google.com/uc?id=11eXz5IguJDngMpMl5QWHO5uhGW5G5gid&export=download" type="video/mp4">
+          </video>
         </div>
         <div class="col-md-9">
           <div class="paper-title">ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing</div>
@@ -262,6 +270,7 @@
           <div class="paper-venue">IEEE International Conference on Robotics and Automation, accepted, 2026</div>
           <div class="link-badges">
             <a class="badge-link" href="https://arxiv.org/abs/2603.18784" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://sites.google.com/view/vitac-tracing" target="_blank" rel="noopener noreferrer">Project Website</a>
           </div>
         </div>
       </div>
@@ -270,14 +279,34 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/gelsight_0.jpg" alt="ViTacGen preview">
+          <img src="https://robot-perception-lab.github.io/vitacgen-website/figs/rw_setting.png" alt="ViTacGen preview">
         </div>
         <div class="col-md-9">
           <div class="paper-title">ViTacGen: Robotic Pushing with Vision-to-Touch Generation</div>
-          <div class="paper-authors">Zhongkai Wu, Yajun Lin, <b>Yongqiang Zhao</b>, Xuyang Zhang, Zhuo Chen, Nathan Lepora, Shan Luo</div>
+          <div class="paper-authors">Zhiyuan Wu, Yijiong Lin, <b>Yongqiang Zhao</b>, Xuyang Zhang, Zhuo Chen, Nathan Lepora, Shan Luo</div>
           <div class="paper-venue">IEEE Robotics and Automation Letters, accepted/in press, 2025</div>
           <div class="link-badges">
-            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/vitacgen-robotic-pushing-with-vision-to-touch-generation/" target="_blank" rel="noopener noreferrer">Entry</a>
+            <a class="badge-link" href="https://arxiv.org/abs/2510.14117" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://robot-perception-lab.github.io/vitacgen-website/" target="_blank" rel="noopener noreferrer">Project Website</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <video autoplay muted loop playsinline preload="metadata" poster="https://georgewuzy.github.io/ConViTac-website/resources/video.jpg" aria-label="ConViTac preview">
+            <source src="https://georgewuzy.github.io/ConViTac-website/resources/IROS25_1246_VI_i.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">ConViTac: Aligning Visual-Tactile Fusion with Contrastive Representations</div>
+          <div class="paper-authors">Zhiyuan Wu, <b>Yongqiang Zhao</b>, Shan Luo</div>
+          <div class="paper-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems, 2025</div>
+          <div class="link-badges">
+            <a class="badge-link" href="https://arxiv.org/abs/2506.20757" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://georgewuzy.github.io/ConViTac-website/" target="_blank" rel="noopener noreferrer">Project Website</a>
           </div>
         </div>
       </div>
@@ -290,10 +319,11 @@
         </div>
         <div class="col-md-9">
           <div class="paper-title">SimTac: A Physics-Based Simulator for Vision-Based Tactile Sensing with Biomorphic Structures</div>
-          <div class="paper-authors">Xuyang Zhang, Jialun Jiang, Zhuo Chen, <b>Yongqiang Zhao</b>, Tianqi Yang, Daniel Gomes, Jun Wang, Shan Luo</div>
-          <div class="paper-venue">Recent publication record, 2025</div>
+          <div class="paper-authors">Xuyang Zhang, Jiaqi Jiang, Zhuo Chen, <b>Yongqiang Zhao</b>, Tianqi Yang, Daniel Fernandes Gomes, Jianan Wang, Shan Luo</div>
+          <div class="paper-venue">Cyborg and Bionic Systems, 2026</div>
           <div class="link-badges">
-            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/simtac-a-physics-based-simulator-for-vision-based-tactile-sensing/" target="_blank" rel="noopener noreferrer">Entry</a>
+            <a class="badge-link" href="https://doi.org/10.34133/cbsystems.0510" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://github.com/XuyangZhang0223/SimTac_Code" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
       </div>
@@ -302,14 +332,15 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/robot_arm.jpg" alt="GenForce preview">
+          <img src="https://zhuochenn.github.io/genforce-project/images/Architecture.png" alt="GenForce preview">
         </div>
         <div class="col-md-9">
           <div class="paper-title">Training Tactile Sensors to Learn Force Sensing from Each Other</div>
-          <div class="paper-authors">Zhuo Chen, Nanxiang Ou, Xuyang Zhang, Zhongkai Wu, <b>Yongqiang Zhao</b>, Yiming Wang, Emmanouil Spyrakos Papastavridis, Nathan Lepora, Lorenzo Jamone, Joni Deng, Shan Luo</div>
-          <div class="paper-venue">Nature Communications, published March 2, 2026</div>
+          <div class="paper-authors">Zhuo Chen, Ni Ou, Xuyang Zhang, Zhiyuan Wu, <b>Yongqiang Zhao</b>, Yupeng Wang, Emmanouil Spyrakos Papastavridis, Nathan Lepora, Lorenzo Jamone, Jiankang Deng, Shan Luo</div>
+          <div class="paper-venue">Nature Communications, published January 28, 2026</div>
           <div class="link-badges">
-            <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/training-tactile-sensors-to-learn-force-sensing-from-each-other/" target="_blank" rel="noopener noreferrer">Entry</a>
+            <a class="badge-link" href="https://www.nature.com/articles/s41467-026-68753-1" target="_blank" rel="noopener noreferrer">Paper</a>
+            <a class="badge-link" href="https://zhuochenn.github.io/genforce-project/" target="_blank" rel="noopener noreferrer">Project Website</a>
           </div>
         </div>
       </div>
@@ -412,7 +443,7 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/digit_video.gif" alt="Tactile foundation models project">
+          <img src="images/project-sensor/gelsight_0.jpg" alt="Tactile foundation models project">
         </div>
         <div class="col-md-9">
           <div class="paper-title">Tactile Foundation Models for Robot Manipulation</div>
@@ -426,7 +457,7 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/fisheye_3.jpg" alt="Visual-tactile imitation learning project">
+          <img src="images/project-sensor/moon.png" alt="Visual-tactile imitation learning project">
         </div>
         <div class="col-md-9">
           <div class="paper-title">Visual-Tactile Imitation Learning of Deformable Object Manipulation</div>
