@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yongqiang Zhao's Homepage</title>
-  <link rel="icon" type="image/png" href="images/profile.png">
+  <link rel="icon" type="image/jpeg" href="images/profile.JPG">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -130,6 +130,36 @@
       margin-top: 6px;
     }
 
+    .subsection-title {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #1f2937;
+    }
+
+    .edu-list,
+    .text-list {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .edu-list li,
+    .text-list li {
+      margin-bottom: 14px;
+    }
+
+    .edu-degree {
+      font-weight: 700;
+      color: #111;
+    }
+
+    .edu-meta,
+    .text-meta {
+      color: #4b5563;
+      font-size: 0.96rem;
+    }
+
     .link-badges {
       display: flex;
       flex-wrap: wrap;
@@ -187,32 +217,37 @@
     <div class="hero">
       <div class="row align-items-center">
         <div class="col-md-3">
-          <img src="images/profile.png" alt="Portrait of Yongqiang Zhao">
+          <img src="images/profile.JPG" alt="Portrait of Yongqiang Zhao">
         </div>
         <div class="col-md-9">
-          <h2 class="hero-title">Yongqiang Zhao</h2>
+          <h2 class="hero-title">Yongqiang Zhao 赵永强</h2>
           <div class="hero-links">
-            <a href="files/CV_Yongqiang_Zhao.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="files/Resume.pdf" target="_blank" rel="noopener noreferrer">CV</a>
             <span>&amp;</span>
             <a href="https://scholar.google.com/citations?hl=zh-CN&user=Be7dj_oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
             <span>&amp;</span>
             <a href="https://github.com/Rancho-zhao" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span>&amp;</span>
-            <a href="https://www.researchgate.net/profile/Yongqiang-Zhao-10" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            <a href="https://www.linkedin.com/in/yongqiang-zhao-674200214/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <span>&amp;</span>
             <a href="mailto:yongqiang.zhao@kcl.ac.uk">Email</a>
           </div>
           <div>
             I am a PhD student in the Department of Engineering at
             <a href="https://www.kcl.ac.uk/" target="_blank" rel="noopener noreferrer">King's College London</a>.
-            My research lies at the intersection of robotic manipulation, tactile sensing, and robot learning,
-            with a particular interest in sim-to-real transfer and perception-driven dexterous interaction.
+            My research focuses on machine perception for robot interaction, especially visual-tactile perception for dexterous manipulation.
+          </div>
+          <div class="content-gap"></div>
+          <div>
+            So far, I have developed tactile simulation, sim-to-real transfer, and visual-tactile imitation learning methods for assembly,
+            deformable-object tracing, and laboratory manipulation. Over the next few years, I aim to connect robot interaction simulation,
+            tactile system design, and scalable learning algorithms to build general visual-tactile perception models for reliable sim-to-real robot manipulation.
           </div>
           <div class="content-gap"></div>
           <div>
             Before joining King's, I received both my Bachelor's and Master's degrees from
             <a href="https://www.seu.edu.cn/" target="_blank" rel="noopener noreferrer">Southeast University</a>.
-            This page highlights selected papers and projects from my research journey.
+            I work with Prof. Shan Luo and focus on dexterous manipulation, tactile simulation, and multimodal learning.
           </div>
         </div>
       </div>
@@ -223,17 +258,41 @@
     <div>
       <h3>Recent News</h3>
       <ul class="news-list">
-        <li>[2024/04] Our paper on FOTS was published in <b>IEEE Robotics and Automation Letters</b>.</li>
-        <li>[2023/02] Work on tubular object manipulation with tactile sensing appeared in <b>Robotics and Autonomous Systems</b>.</li>
-        <li>[2023/01] Our paper on pixel-level domain adaptation for real-to-sim pose estimation was published in <b>IEEE TCDS</b>.</li>
-        <li>[Now] I am continuing research on tactile perception, sim-to-real transfer, and dexterous manipulation.</li>
+        <li>🎉 [2026] Our paper <b>Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly</b> was accepted by <b>IEEE Robotics and Automation Letters</b>.</li>
+        <li>🎉 [2026] Our paper <b>ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing</b> was accepted by <b>ICRA 2026</b>.</li>
+        <li>🎉 [Summer 2025] I served as a leading developer and organizer for the Third London Summer School in Robotics and AI, including a visual-tactile grasping mini-hackathon.</li>
+        <li>🎉 [2024-Present] I have been serving as reviewer for RA-L, ICRA, and IROS in tactile perception, robot learning, and manipulation.</li>
       </ul>
     </div>
 
-    <div class="section-gap"></div>
-
     <div>
       <h3>Papers</h3>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/circle.png" alt="Peg-in-hole assembly preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">Visual-Tactile Peg-in-Hole Assembly Learning from Peg-out-of-Hole Disassembly</div>
+          <div class="paper-authors"><b>Yongqiang Zhao</b>, X. Zhang, Z. Chen, M. Leonetti, E. S. Papastavridis, S. Luo</div>
+          <div class="paper-venue">IEEE Robotics and Automation Letters, accepted, 2026</div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
+
+      <div class="row paper-item">
+        <div class="col-md-3 paper-media">
+          <img src="images/project-sensor/marker.png" alt="ViTac-Tracing preview">
+        </div>
+        <div class="col-md-9">
+          <div class="paper-title">ViTac-Tracing: Visual-Tactile Imitation Learning of Deformable Object Tracing</div>
+          <div class="paper-authors"><b>Yongqiang Zhao</b>, H. Luo, Y. Wang, E. S. Papastavridis, Y. Demiris, S. Luo</div>
+          <div class="paper-venue">IEEE International Conference on Robotics and Automation, accepted, 2026</div>
+        </div>
+      </div>
+
+      <div class="content-gap"></div>
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
@@ -245,7 +304,6 @@
           <div class="paper-venue">IEEE Robotics and Automation Letters, accepted/in press, 2025</div>
           <div class="link-badges">
             <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/vitacgen-robotic-pushing-with-vision-to-touch-generation/" target="_blank" rel="noopener noreferrer">Entry</a>
-            <a class="badge-link" href="https://researchtrend.ai/papers/2510.14117" target="_blank" rel="noopener noreferrer">Summary</a>
           </div>
         </div>
       </div>
@@ -262,7 +320,6 @@
           <div class="paper-venue">Recent publication record, 2025</div>
           <div class="link-badges">
             <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/simtac-a-physics-based-simulator-for-vision-based-tactile-sensing/" target="_blank" rel="noopener noreferrer">Entry</a>
-            <a class="badge-link" href="https://papers.cool/arxiv/2511.11456" target="_blank" rel="noopener noreferrer">ArXiv Mirror</a>
           </div>
         </div>
       </div>
@@ -276,7 +333,7 @@
         <div class="col-md-9">
           <div class="paper-title">Training Tactile Sensors to Learn Force Sensing from Each Other</div>
           <div class="paper-authors">Z. Chen, N. Ou, X. Zhang, Z. Wu, <b>Yongqiang Zhao</b>, Y. Wang, E. Papastavridis, N. Lepora, L. Jamone, J. Deng, S. Luo</div>
-          <div class="paper-venue">Recent publication record, 2026</div>
+          <div class="paper-venue">Nature Communications, published March 2, 2026</div>
           <div class="link-badges">
             <a class="badge-link" href="https://kclpure.kcl.ac.uk/portal/en/publications/training-tactile-sensors-to-learn-force-sensing-from-each-other/" target="_blank" rel="noopener noreferrer">Entry</a>
           </div>
@@ -376,15 +433,17 @@
     <div class="section-gap"></div>
 
     <div>
-      <h3>Selected Projects</h3>
+      <h3>Projects</h3>
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-sensor/robot_arm.jpg" alt="Tactile sensor project">
+          <img src="images/project-sensor/3dprint.jpg" alt="Tactile foundation models project">
         </div>
         <div class="col-md-9">
-          <div class="paper-title">Reproduction and Improvement of Vision-based Tactile Sensors</div>
-          <div class="paper-venue">Sensor structure design, fabrication, optical modeling, and robotic deployment.</div>
+          <div class="paper-title">Tactile Foundation Models for Robot Manipulation</div>
+          <div class="paper-venue">Dec. 2025 - Present</div>
+          <div class="text-meta">Ongoing collaboration with Huawei Noah’s Ark Lab on foundation-model-style tactile representations for contact-rich robot manipulation.</div>
+          <div class="text-meta">Lead learning-method design and experimental validation for scalable pretraining objectives connecting tactile sensing, robot state, and visual observations.</div>
         </div>
       </div>
 
@@ -392,11 +451,13 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-xiaoli/overall.jpg" alt="Xiaoli project">
+          <img src="images/project-sensor/fisheye_2.jpg" alt="Visual-tactile imitation learning project">
         </div>
         <div class="col-md-9">
-          <div class="paper-title">Xiaoli: A Robotic Arm for Table Tennis Grasping</div>
-          <div class="paper-venue">Embedded control, mechanical integration, and autonomous grasping experiments.</div>
+          <div class="paper-title">Visual-Tactile Imitation Learning of Deformable Object Manipulation</div>
+          <div class="paper-venue">Mar. 2025 - Sep. 2025</div>
+          <div class="text-meta">Visiting researcher at the Personal Robotics Laboratory, Imperial College London, collaborating with Dr. Haining Luo, Prof. Yiannis Demiris, and Dr. Emmanuel Papastavridis.</div>
+          <div class="text-meta">Constructed a visual-tactile teleoperation system for ABB YuMi and introduced local/global task losses for robust tracing policies.</div>
         </div>
       </div>
 
@@ -404,11 +465,13 @@
 
       <div class="row paper-item">
         <div class="col-md-3 paper-media">
-          <img src="images/project-audio/voice.jpg" alt="Audio amplifier project">
+          <img src="images/project-sensor/robot_arm.jpg" alt="Tactile simulation and sim-to-real project">
         </div>
         <div class="col-md-9">
-          <div class="paper-title">A Design of Audio Amplifier</div>
-          <div class="paper-venue">Circuit design, analog signal processing, and hardware prototyping.</div>
+          <div class="paper-title">Tactile Simulation and Sim-to-Real Skill Learning</div>
+          <div class="paper-venue">Jan. 2024 - Mar. 2026</div>
+          <div class="text-meta">Proposed a fast simulation algorithm for vision-based tactile sensors through learned optical rendering and efficient marker-motion approximation.</div>
+          <div class="text-meta">Developed a visual-tactile simulation suite in MuJoCo and supported sim-to-real policy learning via teacher-student training, domain randomization, and tactile image transfer.</div>
         </div>
       </div>
     </div>
