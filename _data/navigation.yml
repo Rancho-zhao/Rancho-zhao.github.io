@@ -1,17 +1,2 @@
 # main links links
-main:
-  - title: "PUBLICATIONS"
-    url: /publications/
-
-  - title: "PROJECTS"
-    url: /projects/   
-        
-  - title: "BLOGS"
-    url: /year-archive/
-
-  - title: "CV"
-    url: /cv/
-
-  - title: "HOBBIES"
-    url: /hobbies/
-    
+main: []

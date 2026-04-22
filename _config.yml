@@ -125,6 +125,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - Academic-project-page-template
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -142,10 +143,17 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
   - tmp
   - vendor
+  - _drafts
+  - _hobbies
+  - _posts
+  - _projects
+  - _publications
 keep_files:
   - .git
   - .svn
@@ -176,13 +184,13 @@ kramdown:
 # Collections
 collections:
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:path/
   hobbies:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

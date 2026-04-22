@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+
+    <main id="main" class="home-academic" role="main">
+      <article class="home-academic__page" itemscope itemtype="http://schema.org/Person">
+        <section class="home-academic__content" itemprop="description">
+          {{ content }}
+        </section>
+      </article>
+    </main>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
